@@ -19,13 +19,15 @@ import { ProductComponent } from './components/products/product/product.componen
 
 // services
 import { ProductService } from './services/product.service';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     ProductListComponent,
-    ProductComponent
+    ProductComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -41,3 +43,6 @@ import { ProductService } from './services/product.service';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+//Holo
